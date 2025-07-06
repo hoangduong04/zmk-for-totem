@@ -160,10 +160,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN  &none  &none
-        &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp MINUS      &kp EQUAL         &none  &none
-&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp UNDER      &kp PLUS          &none  &none  &trans
-                                    &trans        &trans        &trans                  &mo 3                  &kp RSHIFT     &trans
+        &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp UNDERSCORE  &kp PLUS          &kp BACKSLASH  &none
+        &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp MINUS       &kp EQUAL         &kp PIPE       &none
+&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp LESS_THAN   &kp GREATER_THAN  &none          &none  &trans
+                                    &trans        &trans        &trans                  &mo 3                  &kp RSHIFT      &trans
             >;
         };
 
