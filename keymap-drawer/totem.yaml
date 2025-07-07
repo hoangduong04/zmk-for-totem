@@ -35,8 +35,8 @@ layers:
   - '`'
   - ENTER
   - LEFT GUI
-  - {t: BACKSPACE, h: NAVI}
-  - {t: TAB, h: SYM}
+  - {t: TAB, h: NAVI}
+  - {t: BACKSPACE, h: SYM}
   - SPACE
   - {t: RIGHT SHIFT, h: sticky}
   NAVI:
