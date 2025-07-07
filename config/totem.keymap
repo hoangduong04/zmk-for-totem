@@ -65,13 +65,11 @@
     >;
 
     #ifdef HAS_UROB
-        /delete-property/
+        /delete-property/ ignore-modifiers;
+    #endif 
+};
 
-    ignore-modifiers;
-    #endif = };
-
-    #ifdef HAS_CAPSLOCK
-
+#ifdef HAS_CAPSLOCK
     &caps_word_capslock {
         disable-on-keys = <
             SPACE TAB ENTER ESCAPE
@@ -80,11 +78,9 @@
             LPAR RPAR LBKT RBKT LBRC RBRC LT GT
         >;
     };
-
-    #endif
+#endif
 
 #ifdef HAS_UROB
-
     &num_word {
         layers = <NUM_WORD>;
         continue-list = <
@@ -95,8 +91,7 @@
 
         ignore-modifiers;  // modifiers don't deactivate the layer
     };
-
-    #endif
+#endif
 
 // ================================
 
@@ -281,9 +276,6 @@
                 <&macro_tap>,
                 <&kp G &kp I &kp F>;
         };
-    };
-
-    behaviors {
     };
 
     keymap {
