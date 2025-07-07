@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - '`'
+  - ''''
   - ENTER
   - LEFT GUI
   - {t: TAB, h: NAVI}
