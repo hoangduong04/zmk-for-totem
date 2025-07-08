@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RIGHT ALT}
   - {t: L, h: RIGHT CONTROL}
   - ;
-  - ESCAPE
+  - {t: ESCAPE, h: LEFT GUI}
   - Z
   - X
   - C
@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - ''''
+  - {t: '''', h: RIGHT SHIFT}
   - ENTER
   - LEFT GUI
   - {t: TAB, h: NAVI}
@@ -79,21 +79,21 @@ layers:
   - RSHIFT
   - {t: ▽, type: trans}
   SYM:
-  - ESC
-  - '~'
-  - ^
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
   - '#'
-  - VOLUME UP
-  - PAGE UP
-  - PAGE DOWN
-  - ''
-  - ''
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
   - ''
   - CAPS
-  - '*'
-  - '%'
-  - '@'
-  - VOL DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '"'
+  - ''''
   - LEFT
   - DOWN
   - UP
@@ -101,17 +101,17 @@ layers:
   - ''
   - ''
   - DEL
-  - '&'
-  - $
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '`'
-  - MUTE
+  - {t: ▽, type: trans}
   - VOL DN
   - VOL UP
   - PREV
   - NEXT
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
   - PLAY PAUSE
   - ADJ
   - {t: SPACE, type: held}
