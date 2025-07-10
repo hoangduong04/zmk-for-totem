@@ -98,7 +98,7 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - ''
+  - PLAY PAUSE
   - ''
   - DEL
   - {t: ▽, type: trans}
@@ -112,7 +112,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - MUTE
-  - PLAY PAUSE
+  - {t: ▽, type: trans}
   - ADJ
   - {t: SPACE, type: held}
   - PP
