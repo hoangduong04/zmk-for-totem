@@ -20,8 +20,8 @@ layers:
   - {t: J, h: RIGHT GUI}
   - {t: K, h: RIGHT ALT}
   - {t: L, h: RIGHT CONTROL}
-  - {t: ;, h: nums}
-  - {t: ESCAPE, h: LEFT GUI}
+  - ;
+  - {t: ESCAPE, h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - {t: '''', h: RIGHT SHIFT}
+  - {t: '''', h: nums}
   - ENTER
   - LEFT GUI
   - {t: TAB, h: NAVI}
@@ -41,19 +41,19 @@ layers:
   - {t: RIGHT SHIFT, h: sticky}
   NAVI:
   - ''
-  - '7'
-  - '8'
   - '9'
-  - '{'
-  - '}'
+  - '8'
+  - '7'
+  - '['
+  - ']'
   - _
   - +
   - \
   - ''
-  - ''
-  - '4'
-  - '5'
+  - '0'
   - '6'
+  - '5'
+  - '4'
   - (
   - )
   - '-'
@@ -61,12 +61,12 @@ layers:
   - '|'
   - ''
   - {t: ▽, type: trans}
-  - '0'
-  - '1'
-  - '2'
+  - {t: ▽, type: trans}
   - '3'
-  - '['
-  - ']'
+  - '2'
+  - '1'
+  - '{'
+  - '}'
   - <
   - '>'
   - ''
@@ -176,7 +176,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -188,7 +188,7 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
