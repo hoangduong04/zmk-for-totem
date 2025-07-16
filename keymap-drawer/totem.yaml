@@ -107,11 +107,11 @@ layers:
   - {t: ▽, type: trans}
   - VOL DN
   - VOL UP
-  - PREV
+  - PREVIOUS
   - NEXT
-  - ''
-  - {t: ▽, type: trans}
   - MUTE
+  - {t: ▽, type: trans}
+  - ':'
   - {t: ▽, type: trans}
   - ADJ
   - {t: SPACE, type: held}
