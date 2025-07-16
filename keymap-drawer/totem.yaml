@@ -40,20 +40,20 @@ layers:
   - SPACE
   - {t: RIGHT SHIFT, h: sticky}
   NAVI:
-  - ''
-  - '9'
-  - '8'
-  - '7'
+  - '!'
+  - '@'
+  - '#'
+  - $
   - '['
   - ']'
-  - _
-  - +
-  - \
+  - '%'
+  - ^
+  - '&'
+  - '*'
   - ''
-  - '0'
-  - '6'
-  - '5'
-  - '4'
+  - \
+  - +
+  - '-'
   - (
   - )
   - '-'
@@ -62,14 +62,14 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '3'
-  - '2'
-  - '1'
+  - {t: ▽, type: trans}
+  - '"'
+  - ''''
   - '{'
   - '}'
   - <
   - '>'
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -79,21 +79,21 @@ layers:
   - RSHIFT
   - {t: ▽, type: trans}
   SYM:
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
-  - '"'
+  - '`'
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
   - UP
@@ -103,7 +103,7 @@ layers:
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOL DN
   - VOL UP
