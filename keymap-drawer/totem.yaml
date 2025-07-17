@@ -91,7 +91,7 @@ layers:
   - '0'
   - CAPS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '~'
   - '`'
   - {t: ▽, type: trans}
   - LEFT
