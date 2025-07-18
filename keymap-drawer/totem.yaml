@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - A
-  - {t: S, h: LEFT CONTROL}
-  - {t: D, h: LEFT ALT}
+  - {t: A, h: LCTRL}
+  - {t: S, h: LEFT ALT}
+  - D
   - {t: F, h: LEFT GUI}
   - G
   - H
   - {t: J, h: RIGHT GUI}
-  - {t: K, h: RIGHT ALT}
-  - {t: L, h: RIGHT CONTROL}
-  - ;
+  - K
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RCTRL}
   - {t: ESCAPE, h: LEFT SHIFT}
   - Z
   - X
@@ -63,8 +63,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '"'
-  - ''''
+  - '~'
+  - '`'
   - '{'
   - '}'
   - <
@@ -91,8 +91,8 @@ layers:
   - '0'
   - CAPS
   - {t: ▽, type: trans}
-  - '~'
-  - '`'
+  - '"'
+  - ''''
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -201,7 +201,7 @@ combos:
 - p: [6, 7]
   k: ']'
 - p: [13, 12]
-  k: '`'
+  k: '-'
 - p: [16, 17]
   k: ESCAPE
 - p: [24, 23]
