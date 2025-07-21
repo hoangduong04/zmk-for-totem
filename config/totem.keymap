@@ -279,10 +279,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCLAMATION  &kp AT_SIGN           &kp HASH           &kp DOLLAR  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT    &kp CARET         &kp AMPERSAND  &kp ASTERISK
-        &none            &kp NON_US_BACKSLASH  &kp EQUAL          &kp MINUS   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp UNDER      &kp PLUS          &kp PIPE       &none
-&trans  &trans           &trans                &kp DOUBLE_QUOTES  &kp SQT     &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN  &trans         &none         &trans
-                                               &trans             &trans      &trans                  &mo 3                  &kp RSHIFT     &trans
+        &kp EXCLAMATION  &kp AT_SIGN    &kp HASH           &kp DOLLAR  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PERCENT    &kp CARET         &kp AMPERSAND  &kp ASTERISK
+        &none            &kp BACKSLASH  &kp EQUAL          &kp MINUS   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp UNDER      &kp PLUS          &kp PIPE       &none
+&trans  &trans           &trans         &kp DOUBLE_QUOTES  &kp SQT     &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN  &trans         &none         &trans
+                                        &trans             &trans      &trans                  &mo 3                  &kp RSHIFT     &trans
             >;
         };
 
