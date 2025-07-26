@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - {t: '''', h: nums}
+  - {t: nums, h: sticky}
   - ENTER
   - LEFT GUI
   - {t: TAB, h: NAVI}
@@ -188,7 +188,7 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: NAVI, h: sticky, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -212,7 +212,7 @@ combos:
   k: \
 - p: [14, 15]
   k: '|'
-- p: [18, 19]
+- p: [18, 19, 17]
   k: ENTER
 - p: [0, 1]
   k: Gui+Sft+4
