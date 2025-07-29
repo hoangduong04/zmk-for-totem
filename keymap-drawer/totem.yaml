@@ -13,12 +13,12 @@ layers:
   - P
   - {t: A, h: LCTRL}
   - {t: S, h: LEFT ALT}
-  - D
+  - {t: D, h: LEFT SHIFT}
   - {t: F, h: LEFT GUI}
   - G
   - H
   - {t: J, h: RIGHT GUI}
-  - K
+  - {t: K, h: RIGHT SHIFT}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RCTRL}
   - {t: ESCAPE, h: LEFT SHIFT}
@@ -98,24 +98,24 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - PLAY PAUSE
+  - {t: ▽, type: trans}
   - ''
   - DEL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - VOL DN
-  - VOL UP
-  - PREVIOUS
+  - PREV
   - NEXT
+  - PLAY PAUSE
   - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
   - {t: ▽, type: trans}
   - ADJ
   - {t: SPACE, type: held}
-  - PP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ADJ:
   - '&sys_reset'
