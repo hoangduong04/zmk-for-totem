@@ -163,23 +163,13 @@
     combos {
         compatible = "zmk,combos";
 
-        c1 {
-            bindings = <&kp LBKT>;
-            key-positions = <3 2>;
-        };
-
-        c2 {
-            bindings = <&kp RBKT>;
-            key-positions = <6 7>;
-        };
-
         dash {
-            bindings = <&kp MINUS>;
+            bindings = <&kp ESCAPE>;
             key-positions = <13 12>;
         };
 
         c4 {
-            bindings = <&kp ESCAPE>;
+            bindings = <&kp MINUS>;
             key-positions = <16 17>;
         };
 
@@ -211,6 +201,11 @@
         screenshot {
             bindings = <&kp LG(LS(NUMBER_4))>;
             key-positions = <0 1>;
+        };
+
+        base_layer {
+            bindings = <&sl 0>;
+            key-positions = <6 7 8 9>;
         };
     };
 
@@ -262,7 +257,7 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        nav_layer {
+        sym_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "NAVI";
@@ -288,7 +283,7 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        sim_layer {
+        nav_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
             label = "SYM";
@@ -333,7 +328,7 @@
             bindings = <
         &sys_reset   &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2    &trans  &kp F7  &kp F8  &kp F9  &kp F12
         &bootloader  &bt BT_NXT  &bt BT_CLR_ALL  &trans        &trans          &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans          &trans        &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&trans  &trans       &bt BT_PRV  &trans          &trans        &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10  &sl 5
                                  &trans          &trans        &trans          &trans  &trans  &trans
             >;
         };
@@ -344,6 +339,15 @@
         &trans  &trans  &trans  &trans  &trans    &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &sl 1
                         &trans  &trans  &trans    &trans        &trans        &trans
+            >;
+        };
+
+        game {
+            bindings = <
+         &kp T  &kp Q  &kp W         &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
+         &kp G  &kp A  &kp S         &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp B  &kp Z  &kp X         &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &sl 0
+                       &kp LEFT_ALT  &kp SPACE  &mo 2    &trans  &trans  &trans
             >;
         };
 
