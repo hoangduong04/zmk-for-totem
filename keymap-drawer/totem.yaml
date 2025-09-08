@@ -7,10 +7,10 @@ layers:
   - R
   - T
   - Y
-  - U
-  - I
-  - O
-  - P
+  - {t: U, type: held}
+  - {t: I, type: held}
+  - {t: O, type: held}
+  - {t: P, type: held}
   - {t: A, h: LCTRL}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
@@ -149,7 +149,7 @@ layers:
   - F2
   - F3
   - F10
-  - {t: ▽, type: trans}
+  - {t: game, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -195,15 +195,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  game:
+  - T
+  - Q
+  - W
+  - E
+  - R
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - G
+  - A
+  - S
+  - D
+  - F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
+  - B
+  - Z
+  - X
+  - C
+  - V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BASE, h: sticky, type: held}
+  - LEFT ALT
+  - SPACE
+  - {t: SYM, type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [3, 2]
-  k: '['
-- p: [6, 7]
-  k: ']'
 - p: [13, 12]
-  k: '-'
-- p: [16, 17]
   k: ESCAPE
+- p: [16, 17]
+  k: '-'
 - p: [24, 23]
   k: Gui+`
 - p: [27, 28]
@@ -216,3 +251,5 @@ combos:
   k: ENTER
 - p: [0, 1]
   k: Gui+Sft+4
+- p: [6, 7, 8, 9]
+  k: {t: BASE, h: sticky}
