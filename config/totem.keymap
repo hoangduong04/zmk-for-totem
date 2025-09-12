@@ -204,7 +204,7 @@
         };
 
         base_layer {
-            bindings = <&sl 0>;
+            bindings = <&tog 0>;
             key-positions = <6 7 8 9>;
         };
     };
@@ -347,7 +347,7 @@
          &kp T  &kp Q  &kp W         &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
          &kp G  &kp A  &kp S         &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
 &kp TAB  &kp B  &kp Z  &kp X         &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &tog 0
-                       &kp LEFT_ALT  &kp SPACE  &mo 2    &trans  &trans  &trans
+                       &kp LEFT_ALT  &kp SPACE  &to 2    &trans  &trans  &trans
             >;
         };
 
