@@ -7,10 +7,10 @@ layers:
   - R
   - T
   - Y
-  - {t: U, type: held}
-  - {t: I, type: held}
-  - {t: O, type: held}
-  - {t: P, type: held}
+  - U
+  - I
+  - O
+  - P
   - {t: A, h: LCTRL}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
@@ -230,7 +230,7 @@ layers:
   - {t: BASE, h: toggle}
   - LEFT ALT
   - SPACE
-  - SYM
+  - {t: SYM, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -252,4 +252,4 @@ combos:
 - p: [0, 1]
   k: Gui+Sft+4
 - p: [6, 7, 8, 9]
-  k: {t: BASE, h: sticky}
+  k: {t: BASE, h: toggle}
