@@ -337,7 +337,7 @@
             bindings = <
          &kp T  &kp Q  &kp W         &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
          &kp G  &kp A  &kp S         &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp B  &kp Z  &kp X         &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &to 0
+&kp TAB  &kp B  &kp Z  &kp X         &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &tog 4
                        &kp LEFT_ALT  &kp SPACE  &mo 2    &trans  &trans  &trans
             >;
         };
