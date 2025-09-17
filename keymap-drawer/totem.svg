@@ -1106,8 +1106,8 @@ path.combo {
 </g>
 <g transform="translate(782, 204) rotate(10.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#BASE">
-<text x="0" y="0" class="key tap layer-activator">BASE</text>
+<a href="#game">
+<text x="0" y="0" class="key tap layer-activator">game</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(235, 230)" class="key keypos-32">

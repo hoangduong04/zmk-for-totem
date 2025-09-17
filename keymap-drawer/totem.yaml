@@ -188,7 +188,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BASE, h: toggle}
+  - {t: game, h: toggle}
   - LEFT ALT
   - SPACE
   - SYM
