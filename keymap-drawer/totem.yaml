@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - {t: nums, h: toggle}
+  - {t: '`', h: RIGHT GUI}
   - ENTER
   - LEFT GUI
   - {t: TAB, h: NAVI}
@@ -52,7 +52,7 @@ layers:
   - '*'
   - ''
   - \
-  - '='
+  - '`'
   - '-'
   - (
   - )
@@ -62,14 +62,14 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - '"'
   - ''''
   - '{'
   - '}'
   - <
   - '>'
-  - {t: ▽, type: trans}
+  - '~'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,45 +156,6 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  nums:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: NAVI, h: sticky}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   game:
   - T
   - Q
@@ -230,7 +191,7 @@ layers:
   - {t: BASE, h: toggle}
   - LEFT ALT
   - SPACE
-  - {t: SYM, h: toggle}
+  - SYM
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
