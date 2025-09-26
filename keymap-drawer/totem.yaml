@@ -214,3 +214,5 @@ combos:
   k: Gui+Sft+4
 - p: [6, 7, 8, 9]
   k: {t: BASE, h: toggle}
+- p: [29, 30]
+  k: Alt+Ctl+SPACE
