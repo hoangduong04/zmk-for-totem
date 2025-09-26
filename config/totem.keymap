@@ -207,6 +207,11 @@
             bindings = <&tog 0>;
             key-positions = <6 7 8 9>;
         };
+
+        swap_input {
+            bindings = <&kp LA(LC(SPACE))>;
+            key-positions = <29 30>;
+        };
     };
 
     macros {
