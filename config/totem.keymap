@@ -212,6 +212,16 @@
             bindings = <&kp LA(LC(SPACE))>;
             key-positions = <29 30>;
         };
+
+        intellij_prev {
+            bindings = <&kp LG(LEFT_BRACKET)>;
+            key-positions = <3 4>;
+        };
+
+        intellij_fwd {
+            bindings = <&kp LG(RIGHT_BRACKET)>;
+            key-positions = <5 6>;
+        };
     };
 
     macros {
@@ -333,17 +343,8 @@
             bindings = <
         &sys_reset   &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2    &trans  &kp F7  &kp F8  &kp F9  &kp F12
         &bootloader  &bt BT_NXT  &bt BT_CLR_ALL  &trans        &trans          &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans          &trans        &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10  &tog 4
+&trans  &trans       &bt BT_PRV  &trans          &trans        &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                  &trans          &trans        &trans          &trans  &trans  &trans
-            >;
-        };
-
-        game {
-            bindings = <
-         &kp T  &kp Q  &kp W         &kp E      &kp R    &trans  &trans  &trans  &trans  &trans
-         &kp G  &kp A  &kp S         &kp D      &kp F    &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp B  &kp Z  &kp X         &kp C      &kp V    &trans  &trans  &trans  &trans  &trans  &tog 4
-                       &kp LEFT_ALT  &kp SPACE  &mo 2    &trans  &trans  &trans
             >;
         };
 
