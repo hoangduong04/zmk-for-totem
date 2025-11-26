@@ -177,7 +177,7 @@ combos:
   k: {t: BASE, h: toggle}
 - p: [29, 30]
   k: Alt+Ctl+SPACE
-- p: [3, 4]
+- p: [3, 2]
   k: Gui+[
-- p: [5, 6]
+- p: [6, 7]
   k: Gui+]
