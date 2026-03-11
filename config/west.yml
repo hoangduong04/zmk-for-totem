@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: caksoylar  # <-- new entry
+      url-base: https://github.com/caksoylar
     - name: urob
       url-base: https://github.com/urob
   projects:
@@ -9,6 +11,9 @@ manifest:
       remote: urob
       revision: main
       import: app/west.yml
+    - name: zmk-rgbled-widget  # <-- new entry
+      remote: caksoylar
+      revision: main
     - name: zmk-helpers
       remote: urob
       revision: main
