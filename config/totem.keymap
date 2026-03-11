@@ -210,7 +210,7 @@
 
         swap_input {
             bindings = <&kp LA(LC(SPACE))>;
-            key-positions = <29 30 28>;
+            key-positions = <29 30>;
         };
 
         intellij_prev {
