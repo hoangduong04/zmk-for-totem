@@ -181,3 +181,5 @@ combos:
   k: Gui+[
 - p: [17, 18]
   k: Gui+]
+- p: [8, 9]
+  k: Gui+Sft+5
