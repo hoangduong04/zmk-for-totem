@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - {t: ESCAPE, h: RIGHT GUI}
+  - {t: Ctl+Alt+SPACE, h: RIGHT GUI}
   - ENTER
   - LEFT GUI
   - {t: TAB, h: NAVI}
